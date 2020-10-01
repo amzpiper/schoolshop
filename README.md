@@ -18,8 +18,6 @@ Fastjson is a Java library that can be used to convert Java Objects into their J
  * Allow custom representations for objects
  * Support arbitrarily complex objects (with deep inheritance hierarchies and extensive use of generic types)
 
-![fastjson](logo.jpg "fastjson")
-
 ## Documentation
 
 - [Documentation Home](https://github.com/alibaba/fastjson/wiki)
@@ -38,41 +36,11 @@ https://github.com/eishay/jvm-serializers/wiki
 [1]: https://repo1.maven.org/maven2/com/alibaba/fastjson/
 [2]: https://search.maven.org/remote_content?g=com.alibaba&a=fastjson&v=LATEST
 
-## Maven
-
-```xml
-<dependency>
-    <groupId>com.alibaba</groupId>
-    <artifactId>fastjson</artifactId>
-    <version>1.2.73</version>
-</dependency>
-```
-
-```xml
-<dependency>
-    <groupId>com.alibaba</groupId>
-    <artifactId>fastjson</artifactId>
-    <version>1.1.72.android</version>
-</dependency>
-```
-
-## Gradle via JCenter
-
-``` groovy
-compile 'com.alibaba:fastjson:1.2.73'
-```
-
-``` groovy
-compile 'com.alibaba:fastjson:1.1.72.android'
-```
-
-Please see this [Wiki Download Page][Wiki] for more repository infos.
-
 [Wiki]: https://github.com/alibaba/fastjson/wiki#download
 
 ### *License*
 
-Fastjson is released under the [Apache 2.0 license](license.txt).
+Schoolshop is released under the [Apache 2.0 license](license.txt).
 
 ```
 Copyright 1999-2020 Alibaba Group Holding Ltd.
