@@ -1,0 +1,20 @@
+CREATE table tb_shop(
+	shop_id int auto_increment not null,
+    owner_id int not null comment'店铺创建人',
+    area_id int default null,
+    shop_category_id int default null,
+    shop_name varchar(256) not null,
+    shop_desc varchar(1024) default null,
+    shop_addr varchar(200) default null,
+    phone varchar(128) default null,
+    shop_img varchar(1024) default null,
+	priority int default 0,
+    create_time datetime default null,
+    last_edit_time datetime default null,
+    enable_status int not null default 0,
+    advice varchar(255) default null,
+    primary key(shop_id),
+    foreign key(owner_id) references tb_person_info (user_id),
+    foreign key(area_id) references tb_area (id),
+    foreign key(shop_category_id) references tb_shop_category (shop_category_id)
+)ENGINE=InnoDB AUTO_INCREMENT=1;
